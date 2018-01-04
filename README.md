@@ -20,10 +20,11 @@ import (
 
 func main() {
   fmt.Printf("Running\n")
+  blaster := piblaster.Blaster{}
   a := []int64{17, 22, 24}
-  piblaster.Start(a)
+  blaster.Start(a)
 
-  piblaster.Apply(17, 1);
+  blaster.Apply(17, 1);
 }
 ```
 
